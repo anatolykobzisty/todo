@@ -1,0 +1,85 @@
+@import '~antd/dist/antd.less';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background: #F3F3F3;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.todo-input-box {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.todo-input-box .ant-input{
+  width: 450px;
+  margin-right: 10px;
+}
+
+.todo-input-box .ant-btn {
+  width: 140px;
+}
+
+.todo-list-box .ant-list-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.todo-list-box .todo-item {
+  display: flex;
+  align-items: center;
+}
+
+.todo-list-box .todo-item-left {
+  display: flex;
+  align-items: center;
+}
+
+.todo-list-box .ant-checkbox-inner {
+  width: 30px;
+  height: 30px;
+}
+
+.todo-list-box .ant-checkbox-inner::after {
+  left: 33%;
+}
+
+.todo-list-box .ant-checkbox-wrapper {
+  margin-right: 10px;
+}
+
+.todo-list-box .ant-typography {
+  width: 260px;
+  margin-right: 10px;
+}
+
+.todo-list-box .ant-input {
+  width: 260px;
+  margin-right: 10px;
+}
+
+.todo-list-box .todo-item-right {
+  width: 290px;
+}
+
+.todo-list-box .ant-btn  {
+  width: 140px;
+}
+
+.todo-list-box .btn-edit-update {
+  margin-right: 10px;
+} 
